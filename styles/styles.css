@@ -119,14 +119,14 @@ nav {
     display: flex;
     justify-content: center;
     margin: 0px;
-    height: 300px;
+    height: auto;
 }
 
 .info-blocks-div div {
     display: flex;
     flex-direction: column;
     width: 60%;
-    height: 250px;
+    height: 240px;
     padding: 10px 40px;
     border-style: solid;
     border-color: black;
@@ -143,4 +143,22 @@ nav {
 .info-blocks-div p {
     font-size: 18px;
     height: 40px;
+}
+
+/* Contact section */
+
+.contact-div {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    height: 150px;
+    padding: 20px;
+    align-items: center;
+    background-color: cadetblue;
+}
+.contact-div h1 {
+    font-size: 48px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+
 }

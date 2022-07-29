@@ -11,3 +11,65 @@
     font-family: Arvo;
 }
 
+/* Header  */
+nav {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    padding: 5px 20px;
+    justify-content: space-between;
+}
+
+.nav-tabs {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    font-size: 18px;
+    color: white;
+}
+
+.header .main-message-title {
+    font-size: 48px;
+    color: white;
+    font-weight: bold;
+}
+
+.main-div {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: 500px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-message {
+    width: 45%;
+}
+
+.main-message p {
+    margin: 20px;
+    margin-left: 0px;
+}
+
+.header .main-message-text {
+    font-size: 18px;
+    color: white;
+}
+
+.main-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    background-color: indianred;
+}
+
+.header .main-logo {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+

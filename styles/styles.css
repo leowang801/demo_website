@@ -96,7 +96,7 @@ nav {
 }
 
 .additional-info-title {
-    font-size: 32px;
+    font-size: 48px;
     color: black;
     padding: 10px;
 }
@@ -111,4 +111,36 @@ nav {
 .additional-img {
     max-width: 100%;
     height: auto;
+}
+
+/* Info Blocks */
+
+.info-blocks-div {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    height: 300px;
+}
+
+.info-blocks-div div {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 250px;
+    padding: 10px 40px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    background-color: lightgray;
+}
+
+.info-blocks-div h3 {
+    font-size: 32px;
+    padding-bottom: 5px;
+    padding-top: 15px;
+}
+
+.info-blocks-div p {
+    font-size: 18px;
+    height: 40px;
 }
